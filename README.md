@@ -1,11 +1,11 @@
 # AttacksOnFederatedLearning 
 
-Federated Learning (FL) has become one of the most extensively utilized distributed training approaches since it allows users to access large datasets without really sharing them. Only the updated model parameters are exchanged with the central server after the model has been trained locally on the devices holding the data. <br>
+Federated Learning (FL) has become one of the most extensively utilized distributed training approaches since it allows users to access large datasets without really sharing them. Only the updated model parameters are exchanged with the central server after the model has been trained locally on the devices holding the data. This study explores the vulnerability of the Federated Learning (FL) model where a portion of clients participating in the FL process is under the control of adversaries who don’t have access to the training data but can access the training model and its parameters. <br>
+This work is published at 5th interanational conference on Recent Trends in Image Processing and Pattern Recognition-RTIP2R 2022. <br>
+Link to the paper: https://lnkd.in/gcjd5iMV  <br>
 
  <h3> Objective </h3> 
 Exploiting the distributed nature of the FL technique to manipulate the behavior of the model. <br>
-The study explores targeted clean-label attack in which adversaries inject poisoned images into compromised clients’ dataset <br>
-to alter the behaviour of the model on a specific target image at test time. <br>
 
 <h3> Dataset </h3>
 The standard CIFAR10 dataset is used in this study to conduct various experiments and manipulate the image classifier. 
