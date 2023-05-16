@@ -4,13 +4,13 @@ Federated Learning (FL) has become one of the most extensively utilized distribu
 This work is published at 5th interanational conference on Recent Trends in Image Processing and Pattern Recognition-RTIP2R 2022. <br>
 Link to the paper: https://lnkd.in/gcjd5iMV  <br>
 
- <h3> Objective </h3> 
+ <h2> Objective </h2> 
 Exploiting the distributed nature of the FL technique to manipulate the behavior of the model. <br>
 
-<h3> Dataset </h3>
+<h2> Dataset </h2>
 The standard CIFAR10 dataset is used in this study to conduct various experiments and manipulate the image classifier. 
 
-<h3> Experiments </h3>
+<h2> Experiments </h2>
 
 ***Success Rate Calculation*** <br>
 The success rate is determined by randomly selecting 30 images from a specific class and measuring the model's ability to misclassify them. For instance, if the model misclassifies 20 out of the 30 selected images, the attack success rate is calculated as 20/30. <br>
@@ -24,9 +24,9 @@ This experiment aims to examine the attack success rate when the number of malic
 ***Experiment 3***<br>
 Here, we explore the relationship between the number of poisonous images injected into the dataset and the overall model accuracy. This experiment focuses on observing the changes in the model's accuracy as the number of poisonous images increases. <br>
 
-<h3> Results </h3>
+<h2> Results </h2>
 [1] The attack’s impact grows in direct proportion to the number of injected poisonous images and malicious client (i.e. controlled by adversaries) participating in the FL process. <br>
 [2] The behavior of a FL model can be altered maliciously towards a specific target image without significantly affecting the model’s overall accuracy. <br>
 
-<h3> Acknowledgement </h3>
+<h2> Acknowledgement </h2>
 This repository utilizes [adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox.git) to generate poison images for the attack.
