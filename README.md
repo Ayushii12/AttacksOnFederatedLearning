@@ -28,4 +28,5 @@ Here, we explore the relationship between the number of poisonous images injecte
 [1] The attack’s impact grows in direct proportion to the number of injected poisonous images and malicious client (i.e. controlled by adversaries) participating in the FL process. <br>
 [2] The behavior of a FL model can be altered maliciously towards a specific target image without significantly affecting the model’s overall accuracy. <br>
 
-
+<h3> Acknowledgement </h3>
+This repository utilizes [adverserial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) to generate poison images for attack. 
